@@ -1,6 +1,7 @@
 // ==UserScript==
 // @name          Instapaper in Google Reader
-// @description   [v1.2] This script adds Instapaper links to all GR items. Look for the little scissors next to the item headlines.
+// @description   This script adds Instapaper links to all GR items. Look for the little scissors next to the item headlines.
+// @version       1.3
 // @namespace     http://carlo.zottmann.org/
 // @author        Carlo Zottmann <carlo@zottmann.org>
 // @include       http://www.google.com/reader/view/*
@@ -12,9 +13,16 @@
 (function() {
     var timerID;
     var busy = false;
+    var userkey = "YOUR_INSTAPAPER_USER_KEY";
 
     function makeIPLink(targetNode, href, titleStr) {
-        var jslink = 'http://www.instapaper.com/b?v=4&k=UVAsB4xV1ksG&u=' +  encodeURIComponent(href) + '&t=' + encodeURIComponent(titleStr) + '&s=0';
+        var jslink = [
+            'http://www.instapaper.com/b?v=4',
+            '&k=', userkey,
+            '&u=', encodeURIComponent(href),
+            '&t=', encodeURIComponent(titleStr),
+            '&s=0'
+        ].join("");
 
         var a = document.createElement("a");
         a.setAttribute("href", jslink);
