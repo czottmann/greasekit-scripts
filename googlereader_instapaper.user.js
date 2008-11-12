@@ -2,7 +2,7 @@
 // @name          Instapaper in Google Reader
 // @description   This script adds Instapaper links to all GR items. Look for the little scissors next to the item headlines.
 // @version       1.3
-// @namespace     http://carlo.zottmann.org/
+// @namespace     http://github.com/Carlo/greasekit-scripts/tree/master 
 // @author        Carlo Zottmann <carlo@zottmann.org>
 // @include       http://www.google.com/reader/view/*
 // @include       https://www.google.com/reader/view/*

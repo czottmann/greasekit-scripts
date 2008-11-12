@@ -1,10 +1,11 @@
 // ==UserScript==
-// @name             Twitter User Reputation
-// @namespace        http://github.com/Carlo/greasekit-scripts/tree/master
-// @description      Twitter user reputation display, c/o TwerpScan.com
-// @include          http://twitter.com/*
-// @exclude          http://twitter.com/home
-// @author           Carlo Zottmann, <carlo@zottmann.org>
+// @name            Twitter User Reputation
+// @description     Twitter user reputation display, c/o TwerpScan.com
+// @version         1.3
+// @namespace       http://github.com/Carlo/greasekit-scripts/tree/master 
+// @author          Carlo Zottmann <carlo@zottmann.org>
+// @include         http://twitter.com/*
+// @exclude         http://twitter.com/home
 // ==/UserScript==
 
 (function() {
