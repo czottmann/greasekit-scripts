@@ -13,7 +13,7 @@ Adds Instapaper links to all GR items. Look for the little scissors next to the 
 Twitter user reputation display, c/o [Twitter Twerp Scan](http://twerpscan.com/).
 
 
-## ism_popuplinks_to_generic.user.js
+## ism&#x5F;popuplinks&#x5F;to&#x5F;generic.user.js
 
 I am tired of having ISM open popups. Me want standard links, so this script rewrites all popupLandscape() links on the page to be regular links.
 
