@@ -33,3 +33,10 @@ adds a link to each song's Last.fm page.
 I love unfuddle.com, but I only use their ticketing system, not the repositories
 anymore. Hence, the ticket pages' "Associated Changesets" column is a waste of
 space to me. This script removes it and widens the comments column instead.
+
+
+## facebook&#x5F;minus&#x5F;twitterupdates.user.js
+
+Hendrik complained about the Twitter updates in all the Facebook profiles. So
+I've spent a few minutes on a script that'll hide those.
+
